@@ -64,7 +64,7 @@ main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: var(--neutral-pale-blue)
+	background: var(--primary-pale-blue)
 		url(./images/pattern-background-mobile.svg) no-repeat;
 	background-size: 100%;
 }
