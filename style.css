@@ -64,7 +64,9 @@ main {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-size: url(./images/pattern-background-mobile.svg);
+	background: var(--neutral-pale-blue)
+		url(./images/pattern-background-mobile.svg) no-repeat top left;
+	background-size: 100% 40%;
 }
 
 .component {
@@ -113,7 +115,7 @@ h1 {
 	text-align: center;
 	padding: 1rem;
 	font-size: 0.875rem;
-	background-color: var(--primary-pale-blue);
+	background-color: var(--neutral-pale-blue);
 	border-radius: 8px;
 }
 
