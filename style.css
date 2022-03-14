@@ -75,11 +75,8 @@ main {
 	border-radius: 20px;
 	overflow: hidden;
 	background-color: white;
+	box-shadow: 0 10px 15px 10px var(--primary-pale-blue);
 }
-
-/* .component > * {
-	flex: 1 1 0;
-} */
 
 .hero img {
 	width: 100%;
