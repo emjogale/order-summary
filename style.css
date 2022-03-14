@@ -127,6 +127,10 @@ h1 {
 	margin-left: 1.2rem;
 }
 
+.plan {
+	padding-top: 1.1rem;
+	color: var(--desaturated-blue);
+}
 .plan span {
 	font-weight: 900;
 	color: black;
@@ -157,6 +161,7 @@ button.cta {
 .cancel {
 	font-size: 0.95rem;
 	font-weight: 900;
+	color: var(--desaturated-blue);
 }
 
 /* wider screen styles  */
