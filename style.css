@@ -52,6 +52,8 @@ button {
 
 button {
 	cursor: pointer;
+	border: none;
+	background-color: inherit;
 }
 
 main {
@@ -73,7 +75,6 @@ main {
 	border-radius: 20px;
 	overflow: hidden;
 	background-color: white;
-	border: 1px solid black;
 }
 
 /* .component > * {
@@ -92,6 +93,7 @@ main {
 
 .summary {
 	text-align: center;
+	margin-bottom: 1.2rem;
 }
 
 h1 {
@@ -121,12 +123,23 @@ p {
 }
 
 .plan button {
-	border: none;
 	padding: 0;
 	margin: 0;
 	color: var(--primary-bright-blue);
 	font-weight: 700;
 	text-decoration: underline;
-	/* border-bottom: 1px solid var(--primary-bright-blue); */
-	background-color: inherit;
+}
+
+button.cta {
+	display: inline-block;
+	padding: 1rem 0;
+	margin: 1.5rem 0;
+	color: white;
+	background-color: var(--primary-bright-blue);
+	border-radius: 8px;
+	font-size: 0.95rem;
+}
+
+.cancel {
+	font-size: 0.95rem;
 }
