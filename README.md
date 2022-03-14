@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/emjogale/order-summary](https://github.com/emjogale/order-summary)
-- Live Site URL: [https://order-summary-lovat.vercel.app](https://order-summary-lovat.vercel.app)
+- Live Site URL: [https://order-summary-lovat.vercel.app](https://order-summary-lovat.vercel.app/)
 
 ## My process
 

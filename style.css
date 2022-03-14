@@ -65,8 +65,8 @@ main {
 	justify-content: center;
 	align-items: center;
 	background: var(--neutral-pale-blue)
-		url(./images/pattern-background-mobile.svg) no-repeat top left;
-	background-size: 100% 40%;
+		url(./images/pattern-background-mobile.svg) no-repeat;
+	background-size: 100%;
 }
 
 .component {
@@ -161,6 +161,9 @@ button.cta {
 
 /* wider screen styles  */
 @media only screen and (min-width: 750px) {
+	main {
+		background-image: url(./images/pattern-background-desktop.svg);
+	}
 	.component {
 		margin: 0 auto;
 	}
