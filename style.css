@@ -173,4 +173,8 @@ button.cta {
 		padding: 0 1.5rem;
 		line-height: 26px;
 	}
+	.plan p,
+	.plan span {
+		font-size: 1rem;
+	}
 }
