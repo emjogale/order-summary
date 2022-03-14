@@ -43,10 +43,15 @@ img {
 	max-width: 100%;
 	height: auto;
 }
-html {
+html,
+button {
 	font-family: "Red Hat Display", sans-serif;
 	font: 16px;
 	color: var(--dark-blue);
+}
+
+button {
+	cursor: pointer;
 }
 
 main {
@@ -61,8 +66,6 @@ main {
 }
 
 .component {
-	display: flex;
-	flex-direction: column;
 	width: 100%;
 	height: 100%;
 	justify-content: space-between;
@@ -73,12 +76,18 @@ main {
 	border: 1px solid black;
 }
 
-.component > * {
-	/* flex: 1 1 0; */
-}
+/* .component > * {
+	flex: 1 1 0;
+} */
 
 .hero img {
 	width: 100%;
+}
+
+.text-container {
+	display: flex;
+	flex-direction: column;
+	padding: 2rem;
 }
 
 .summary {
@@ -86,17 +95,38 @@ main {
 }
 
 h1 {
-	margin: 2rem 0 0.75rem 0;
+	margin-bottom: 0.9rem;
 	font-weight: 900;
 	font-size: 1.4rem;
 }
 
 p {
-	font-size: 0.95rem;
+	font-size: 0.9rem;
 	color: var(--desaturated-blue);
 	line-height: 25px;
 }
 
 .plan {
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	padding: 1rem 0;
+	font-size: 0.875rem;
+}
+
+.plan span {
+	font-weight: 900;
+	color: black;
+}
+
+.plan button {
+	border: none;
+	padding: 0;
+	margin: 0;
+	color: var(--primary-bright-blue);
+	font-weight: 700;
+	text-decoration: underline;
+	/* border-bottom: 1px solid var(--primary-bright-blue); */
+	background-color: inherit;
 }
