@@ -51,11 +51,11 @@ button {
 	color: var(--dark-blue);
 }
 
-button {
+/* button {
 	cursor: pointer;
 	border: none;
 	background-color: inherit;
-}
+} */
 
 main {
 	min-height: 100vh;
@@ -78,7 +78,7 @@ main {
 	border-radius: 20px;
 	overflow: hidden;
 	background-color: white;
-	box-shadow: 0 15px 15px 10px var(--primary-pale-blue);
+	box-shadow: 0 15px 15px 5px var(--primary-pale-blue);
 }
 
 .hero img {
@@ -136,16 +136,14 @@ h1 {
 	display: block;
 }
 
-.plan button {
+.plan a {
 	padding: 0;
 	margin: 0;
 	color: var(--primary-bright-blue);
 	font-weight: 700;
-	text-decoration: underline;
 }
 
-button.cta {
-	display: inline-block;
+a.cta {
 	padding: 1rem 0;
 	margin: 1.5rem 0;
 	color: white;
@@ -153,6 +151,9 @@ button.cta {
 	border-radius: 8px;
 	font-size: 0.95rem;
 	box-shadow: 0 8px 8px 3px var(--primary-pale-blue);
+	text-align: center;
+	text-decoration: none;
+	box-shadow: 0 15px 15px 10px var(--primary-pale-blue);
 }
 .cta:hover {
 	background-color: var(--paler-bright-blue);
@@ -161,6 +162,8 @@ button.cta {
 	font-size: 0.95rem;
 	font-weight: 900;
 	color: var(--desaturated-blue);
+	text-decoration: none;
+	margin: auto;
 }
 
 /* wider screen styles  */
